@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('styles.html',{
+"title": "Agenio Agency HTML Template"
+})
+
+<body class="home-bg main-home onepage overflow-x-visible">
+
+    @@include('header/header-one.html')
+
+    <!-- wpr banner area start -->
+    <section class="wpr-banner-area breadcrumb">
+        <div class="container">
+            <div class="banner-content-area">
+                <h1 class="section-title text-normal wow scaleIn" data-wow-delay="1s">
+                    Get In Touch
+                </h1>
+                <div class="bg-shape">
+                    <img src="assets/images/banner/shape/bg-shape.svg" alt="">
+                </div>
+                <div class="banner-shape-area">
+                    <img src="assets/images/banner/shape/shape-01.svg" width="200" alt="" class="one wow fadeInLeft"
+                        data-wow-delay=".5s">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- wpr banner area end -->
+
+    <!-- wpr contact area start -->
+    <section class="wpr-contact-area mb--16">
+        <div class="container">
+            <div class="section-inner">
+                <div class="left-content-area">
+                    <div class="get-in-touch">
+                        <p class="sub-title">CONTACT</p>
+                        <ul>
+                            <li><a href="#">hello@agenio.com</a></li>
+                            <li><a href="#">(+1) 123 456-7890</a></li>
+                        </ul>
+                    </div>
+                    <div class="location-area">
+                        <p class="sub-title">OFFFICES</p>
+                        <ul>
+                            <li>
+                                <h4>Montréal</h4>
+                                <p>4200 Saint Laurent Blvd, Suite 305 <br> Montreal, QC H2W 2R2 <br> Canada</p>
+                            </li>
+                            <li>
+                                <h4>Texas</h4>
+                                <p>1920 McKinney Avenue, 7th Floor <br> Dallas, TX 75201 <br> United States</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-form-area">
+                    <form action="#">
+                        <div class="single-input">
+                            <label for="name">/YOUR NAME</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name">
+                        </div>
+                        <div class="single-input">
+                            <label for="email">/YOUR E-MAIL</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your e-mail">
+                        </div>
+                        <div class="single-input">
+                            <label for="message">/MORE ABOUT THE PROJECT</label>
+                            <textarea id="message" name="message" placeholder="Leave us message" required></textarea>
+                        </div>
+                        <div class="single-input last">
+                            <label for="upload-attachment">
+                                <i class="fa-sharp-duotone fa-light fa-paperclip"></i> Add an Attachment
+                                <input type="file" name="file" id="upload-attachment">
+                            </label>
+                        </div>
+                        <div class="form-btn-area">
+                            <button type="submit" class="wpr-btn">Submit Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- wpr contact area end -->
+
+
+    <!-- wpr footer area start -->
+    <section class="wpr-footer-area">
+        <div class="container">
+            <div class="section-inner border-1">
+                <div class="footer-top">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li class="square-dot"></li>
+                        <li><a href="#">Services</a></li>
+                        <li class="square-dot"></li>
+                        <li><a href="#">Projects</a></li>
+                        <li class="square-dot"></li>
+                        <li><a href="#">Pricing Plan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-logo-area square-dot">
+                    <a class="quote" href="index.html"><img src="assets/images/logo/footer-logo.svg" alt=""></a>
+                    <div class="shape one"><img src="assets/images/logo/shape-01.svg" alt=""></div>
+                    <div class="shape two"><img src="assets/images/logo/shape-02.svg" alt=""></div>
+                    <span class="square-shape top-left"></span>
+                    <span class="square-shape top-right"></span>
+                    <span class="square-shape bottom-left"></span>
+                    <span class="square-shape bottom-right"></span>
+                </div>
+                <div class="copyright-area">
+                    <div class="left-social-area">
+                        <ul>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Linkedin</a></li>
+                            <li><a href="#">Dribbble</a></li>
+                            <li><a href="#">Behance</a></li>
+                        </ul>
+                    </div>
+                    <p class="copyright">
+                        © <script>
+                            document.write(
+                                new Date().getFullYear()
+                            )
+                        </script> Agenio. All Rights Reserved
+                    </p>
+                    <button class="scroll-top-btn">
+                        Back to Top
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8 3.29688L7.64062 3.64062L1.39062 9.89062L2.10938 10.6094L8 4.71875L13.8906 10.6094L14.6094 9.89062L8.35938 3.64062L8 3.29688Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- wpr footer area end -->
+
+    @@include('scripts.html')
+
+</body>
+
+</html>
