@@ -46,10 +46,10 @@
                         on seamless design and user privacy.</p>
                 </div>
                 <div class="right-content">
-                    <h6>This project reinforced the importance of building user-centered features that offer value
+                    <h2 class="h6">This project reinforced the importance of building user-centered features that offer value
                         beyond aesthetics, especially in social networking. The app’s launch exceeded initial user
                         growth targets, and the client received positive feedback on the app’s intuitive design and
-                        ad-free experience.</h6>
+                        ad-free experience.</h2>
                 </div>
             </div>
             <div class="image-area-2 mb--16">
@@ -62,9 +62,9 @@
                     <p class="desc">User experience focus</p>
                 </div>
                 <div class="right-content">
-                    <h6>One challenge was ensuring privacy controls while maintaining an easy-to-use interface. Our team
+                    <h2 class="h6">One challenge was ensuring privacy controls while maintaining an easy-to-use interface. Our team
                         developed an accessible settings menu that lets users control visibility without overwhelming
-                        them.</h6>
+                        them.</h2>
                     <p class="desc">Designing an ad-free experience meant creating engaging content flows without
                         traditional ads. We achieved this by focusing on rich, visual content and user-driven discovery
                         options.</p>
@@ -76,8 +76,6 @@
         </div>
     </div>
     <!-- wpr work details area end -->
-
-
 
     <!-- wpr cta area start -->
     <section class="wpr-cta-area">
@@ -109,7 +107,7 @@
     <!-- wpr cta area end -->
 
     <!-- wpr contact area start -->
-    <section class="wpr-contact-area mb--16">
+    <section id="contact" class="wpr-contact-area mb--16">
         <div class="container">
             <div class="section-inner">
                 <div class="left-content-area">
@@ -124,18 +122,18 @@
                         <p class="sub-title">OFFFICES</p>
                         <ul>
                             <li>
-                                <h4>Montréal</h4>
+                                <h2 class="h4">Montréal</h2>
                                 <p>4200 Saint Laurent Blvd, Suite 305 <br> Montreal, QC H2W 2R2 <br> Canada</p>
                             </li>
                             <li>
-                                <h4>Texas</h4>
+                                <h2 class="h4">Texas</h2>
                                 <p>1920 McKinney Avenue, 7th Floor <br> Dallas, TX 75201 <br> United States</p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="contact-form-area">
-                    <form action="#">
+                    <form id="contact-form" action="mailer.php" method="POST" enctype="multipart/form-data">
                         <div class="single-input">
                             <label for="name">/YOUR NAME</label>
                             <input type="text" id="name" name="name" placeholder="Enter your full name">
@@ -157,6 +155,7 @@
                         <div class="form-btn-area">
                             <button type="submit" class="wpr-btn">Submit Message</button>
                         </div>
+                        <div id="form-messages"></div>
                     </form>
                 </div>
             </div>
@@ -164,9 +163,8 @@
     </section>
     <!-- wpr contact area end -->
 
-
     <!-- wpr footer area start -->
-    <section class="wpr-footer-area">
+    <div class="wpr-footer-area">
         <div class="container">
             <div class="section-inner border-1">
                 <div class="footer-top">
@@ -217,7 +215,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- wpr footer area end -->
 
     @@include('scripts.html')
